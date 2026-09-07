@@ -1,3 +1,14 @@
-plugins {
-    id 'com.android.application' version '7.4.2' apply false
+plugins { id 'com.android.application' }
+
+android {
+    namespace 'com.appstudio.complete'
+    compileSdk 34
+
+    defaultConfig {
+        applicationId 'com.appstudio.nwoplete'
+        minSdk 
+        targetSdk 34
+        versionCode 1
+        versionName '1.0'
+    }
 }
